@@ -14,7 +14,7 @@ def calculate_total_extra_charges(exceeded_minutes, free_minutes_limit):
     return total
 
 
-with open('/Users/yuristavchanskyy/PycharmProjects/Bixi/files/OD_2018-06.csv') as csv_file:
+with open('/pathToYourFile/OD_2018-06.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line_count = 0
     exceed_minutes_members = []
